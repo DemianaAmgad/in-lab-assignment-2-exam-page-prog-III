@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="0; URL='prog3.html'" />
-  </head>
-  <body>
-    Redirecting...
-  </body>
+<head>
+    <title>Exam Workspace</title>
+    <style>
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        iframe {
+            border: none;
+            height: 100%;
+        }
+        #left {
+            width: 50%;
+        }
+        #right {
+            width: 50%;
+        }
+        #header {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: #222;
+            color: #fff;
+            padding: 8px;
+            text-align: center;
+            font-size: 18px;
+            z-index: 10;
+        }
+    </style>
+</head>
+
+<body>
+
+<div id="header">Exam Workspace — Programming III in-lab assignment</div>
+
+<!-- Left side: GitHub repo (placeholder for now) -->
+<iframe id="left" src="https://www.github.com/DemianaAmgad"></iframe>
+
+<!-- Right side: OneCompiler C++ workspace -->
+<iframe id="right" src="https://onecompiler.com/cpp"></iframe>
+
+</body>
 </html>
